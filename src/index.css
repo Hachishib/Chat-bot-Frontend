@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-blue: #2FA084;
+  --color-brand-yellow: #6FCF97;
+  --color-brand-accent: #1F6F5F;
+  --color-brand-dark: #1e293b;
+  --radius-4xl: 2rem;
+  --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui;
+}
+
+/* Optional: This makes the gradient background cover the whole screen */
+body {
+  background: linear-gradient(to bottom right, #2FA084, #EEEEEE, #2FA084);
+  min-height: 100vh;
+  color: #1e293b;
+}
