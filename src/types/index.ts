@@ -18,3 +18,8 @@ export type NewsItem = {
 
 // ✅ EDIT: Add new types below as needed
 export type AdmissionStatus = "pending" | "accepted" | "rejected";
+
+// Chat API response type (must match backend /api/chat response)
+export type ChatResponse = {
+  reply: string;
+};
