@@ -1,17 +1,8 @@
-// ============================================================
-// FOOTER.TSX
-// ✅ EDITABLE: schoolInfo object (name, address, email, phone)
-// ✅ EDITABLE: footerLinks sections (add/rename columns and links)
-// ✅ EDITABLE: socialLinks (add/change social media URLs)
-// ✅ EDITABLE: copyright year or text
-// ❌ NOT EDITABLE (without breaking): Link paths must match App.tsx routes
-// ============================================================
-
 import { Link } from "react-router-dom";
 
 // ✅ EDIT THIS: Your school's contact info
 const schoolInfo = {
-  name: "SHS Campus",
+  name: "SPIST",
   tagline: "The centralized hub for student resources, daily news, and AI-powered school assistance.",
   address: "Tia Maria Bldg., E. Aguinaldo Highway, Anabu 2-A, Imus, Philippines, 4103",
   email: "spistmarketing@spist.edu.ph",

@@ -2,18 +2,18 @@ import { useNavigate } from "react-router-dom";
 
 // ✅ EDIT THIS: Hero headline and buttons
 const hero = {
-  title: "Know Your Campus",
+  title: "Southern Philippines Institute of Science & Technology",
   subtitle:
-    "The centralized hub for student resources, daily news, and AI-powered school assistance.",
+    "",
   primaryBtn: "Explore News",
   secondaryBtn: "Chat with AI Assistant",
 };
 
 // ✅ EDIT THIS: Stats shown in the bottom bar (number + label)
 const stats = [
-  { number: "2,500+", label: "Students" },
-  { number: "150+", label: "Faculty" },
-  { number: "98%", label: "Pass Rate" },
+  { number: "50% DISCOUNT", label: "KINDER TO GRADE 6" },
+  { number: "₱9,000 LESS", label: "GRADE 7 - 10" },
+  { number: "FREE SHS", label: "NO TOP-UP" },
 ];
 
 export default function HeroSection() {
@@ -30,9 +30,9 @@ export default function HeroSection() {
           </h1>
           {/* ✅ EDIT: hero.subtitle */}
           <p className="text-gray-600 text-lg md:text-xl mb-10 max-w-xl mx-auto">
-            {hero.subtitle}
+            <span className="block mb-2">PRE-SCHOOL | ELEMENTARY | JHS | SHS | COLLEGE</span>
+            <span className="block">Quality education. Passionate mentors. A second home that truly cares. This is where your success story begins!</span>
           </p>
-
           <div className="flex flex-wrap gap-4 justify-center">
             {/* ✅ EDIT: hero.primaryBtn label; ❌ keep navigate("/news") path */}
             <button

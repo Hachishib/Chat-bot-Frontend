@@ -20,7 +20,7 @@ export default {
       },
       // ✅ EDIT: Add custom fonts
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Plus Jakarta Sans", "system-ui", "sans-serif"],
       },
     },
   },
